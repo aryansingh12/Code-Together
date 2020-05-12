@@ -6,7 +6,7 @@
 * Heroku website: https://cs-326-final-omega.herokuapp.com/
 
 ## Changes
-* If you make any changes in the typescript file - ``tsc backend/*.ts``
+* If you make any changes in typescript files - ``tsc backend/*.ts``
 
 # Team Omega
 ## CodeTogether
