@@ -1,4 +1,5 @@
 ## How to run
+* Git clone {repo-name}
 * Open terminal and go to the project directory
 * Run ``npm i @types/node`` 
 * Everytime you make a change in a typescript file - ``tsc backend/*.ts``
@@ -8,7 +9,7 @@
 
 # Team Omega
 ## CodeTogether
-## Spring 2020  
+## CS 326 Spring 2020  
 
 ## Overview:  
 Our application is designed to allow people to come together to create and improve upon independent projects in an efficient way. Our site allows users to create an account to showcase their skills and previous experience to others in order to create an effective project team. Similarly, users can create public projects for people to browse. The projects will have all relevant info like a description, necessary skills, github page, etc. This way, users are able to see which project most interests them or fits well with their skillset. This site is not only for programmers, however. People who think that they have “the next big app idea” can come onto the site and create a project in the hopes that some programmers will see it and hop on board. This is what makes our site unique. The combination of programmers and entrepreneurs into one space to discuss and work on projects will facilitate the creation of more applicable and well thought out projects.   
