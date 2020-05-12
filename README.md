@@ -1,11 +1,12 @@
 ## How to run
-* Git clone {repo-name}
-* Open terminal and go to the project directory
-* Run ``npm i @types/node`` 
-* Everytime you make a change in a typescript file - ``tsc backend/*.ts``
+* Open terminal and run ``Git clone https://github.com/aryansingh12/cs326-final-omega.git``
+* cd into the repository and run ``npm i @types/node`` 
 * Run ``node backend/server-main.js``
 * Go to http://localhost:8080/ 
-* website: https://cs-326-final-omega.herokuapp.com/
+* Heroku website: https://cs-326-final-omega.herokuapp.com/
+
+## Changes
+* If you make any changes in the typescript file - ``tsc backend/*.ts``
 
 # Team Omega
 ## CodeTogether
@@ -128,65 +129,6 @@ Our database is a collection containing two types of documents: Projects and Pro
        skills: Strings[],   //An array of the skills a user has 
    }
 ```
-
-## Division of Labor
-### Milestone 1
-index.html - TJ & Aryan  
-profile.html - Ron  
-create_project.html - Aryan & TJ  
-project_description.html - Aryan  
-login.html and signup.html - Ron  
-extra.html - Aryan  
-All CSS files related to these html files were, for the most part, worked on by the same people. Plus, some of the styling was done within the HTML with bootstrap.
-### Milestone 2
-client.js - See endpoints  
-myserver-routing.ts - See endpoints 
-Connecting HTML to JS - TJ  
-Connecting to Heroku Server - TJ and Ron  
-MongoDB Progress - Aryan  
-
-Breakdown of endpoints: (Each endpoint includes client function, server response, html output)  
-Project endpoints:  
-create - Aryan    
-read - Ron  
-update - Ron   
-delete - Ron  
-Profile Endpoints:  
-create - TJ  
-read - TJ  
-update - Ron  
-delete - TJ  
-Other:  
-findAllProjects - Aryan  
-### Milestone 3  
-Note that we have two methods for the put(), get(), and del() operations. One for projects, and one for profiles. Their implementation is very similar.  
-Creation of database and connection in code: Aryan  
-put() Method: Mostly Aryan, Small Part Ron  
-get() Method: Mostly Ron, Small Part Aryan  
-del() Method: Ron  
-find() Method: Mostly Aryan, Small Part TJ  
-find() Essentially uses get() to retrieve a list of projects in the database to display in our HTML  
-Adding radio button selections from HTML into DB entries: TJ  
-### Post-Milestone 3
-HTML Connection/Output:  
-Project CRUD Operations work with DB and Output in HTML:  
-Create: Aryan  
-Read: Ron  
-Update: Ron  
-Delete: TJ  
-Profile CRUD Operations Work with DB and Output in HTML:  
-Create: Aryan  
-Read: Ron  
-Update: Ron  
-Delete: TJ  
-  
-Other:  
-Searching Functionality: Ron  
-Minor Index.html layout changes: Ron  
-Hyperlink projectName in index.html to appropriate project description: Aryan  
-Hyperlink lastName in index.html to appropriate profile page: Ron, but largely based off Aryan's work  
-Feedback section: Aryan  
-Radio buttons integration into db and HTML: TJ  
 
 ## Conclusion
 We thoroughly enjoyed the project as a whole, for some of us this was the first time we had done a complete project on our own basically from scratch. Our group didn’t really have any prior knowledge regarding web programming so every step of the way was a learning process. The hardest parts of the project were definitely creating the server and databases, while the easiest parts were HTML and CSS. One thing we wish we had a better understanding of prior to starting the project was the backend portion of the project, we relied a lot on stack overflow to answer questions we had. One decently sized technical hurdle was connecting Heroku to our project which took some time to figure out what we needed to do.
